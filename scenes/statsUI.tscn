@@ -1,0 +1,183 @@
+[gd_scene load_steps=2 format=3 uid="uid://clugljbwptr1t"]
+
+[ext_resource type="Script" uid="uid://djdgyiags3psi" path="res://scripts/control.gd" id="1_3va2d"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 4.0
+offset_top = 4.0
+offset_right = 1808.0
+offset_bottom = 1996.0
+script = ExtResource("1_3va2d")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 0
+offset_left = -40.0
+offset_right = 1840.0
+offset_bottom = 1992.0
+color = Color(0.489622, 0.489622, 0.489622, 1)
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_right = 1804.0
+offset_bottom = 1992.0
+theme_override_font_sizes/font_size = 150
+text = "Player stats"
+horizontal_alignment = 1
+
+[node name="GridContainer" type="GridContainer" parent="."]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -902.0
+offset_top = -1753.0
+offset_right = 902.0
+grow_horizontal = 2
+grow_vertical = 0
+size_flags_vertical = 10
+columns = 2
+
+[node name="LVL" type="Label" parent="GridContainer"]
+custom_minimum_size = Vector2(900, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 100
+text = "Level"
+
+[node name="LVLEXP" type="Label" parent="GridContainer"]
+custom_minimum_size = Vector2(576, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 100
+
+[node name="LVLK" type="Label" parent="GridContainer"]
+custom_minimum_size = Vector2(576, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 100
+text = "Level Kowala"
+
+[node name="LVLKEXP" type="Label" parent="GridContainer"]
+custom_minimum_size = Vector2(900, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 100
+
+[node name="LVLD" type="Label" parent="GridContainer"]
+custom_minimum_size = Vector2(576, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 100
+text = "Level Drwala"
+
+[node name="LVLDEXP" type="Label" parent="GridContainer"]
+custom_minimum_size = Vector2(900, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 100
+
+[node name="LVLP" type="Label" parent="GridContainer"]
+custom_minimum_size = Vector2(576, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 100
+text = "Level Profesji"
+
+[node name="CRV" type="Label" parent="GridContainer"]
+custom_minimum_size = Vector2(900, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 100
+text = "Kreatywność"
+
+[node name="DEF" type="Label" parent="GridContainer"]
+custom_minimum_size = Vector2(900, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 100
+text = "Obrona"
+
+[node name="VIT" type="Label" parent="GridContainer"]
+custom_minimum_size = Vector2(900, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 100
+text = "Żywotność"
+
+[node name="INT" type="Label" parent="GridContainer"]
+custom_minimum_size = Vector2(900, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 100
+text = "Inteligencja"
+
+[node name="WIS" type="Label" parent="GridContainer"]
+custom_minimum_size = Vector2(900, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 100
+text = "Mądrość"
+
+[node name="STR" type="Label" parent="GridContainer"]
+custom_minimum_size = Vector2(900, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 100
+text = "Siła"
+
+[node name="PER" type="Label" parent="GridContainer"]
+custom_minimum_size = Vector2(900, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 100
+text = "Percepcja"
+
+[node name="DEX" type="Label" parent="GridContainer"]
+custom_minimum_size = Vector2(900, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 100
+text = "Zwinność"
+
+[node name="SPD" type="Label" parent="GridContainer"]
+custom_minimum_size = Vector2(900, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 100
+text = "Szybkość"
+
+[node name="CRT" type="Label" parent="GridContainer"]
+custom_minimum_size = Vector2(900, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 100
+text = "Szansa kryt."
+
+[node name="CRTD" type="Label" parent="GridContainer"]
+custom_minimum_size = Vector2(900, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 100
+text = "Siła kryt."
+
+[node name="MaxHP" type="Label" parent="GridContainer"]
+custom_minimum_size = Vector2(900, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 100
+text = "Max HP"
+
+[node name="HP" type="Label" parent="GridContainer"]
+custom_minimum_size = Vector2(900, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 100
+text = "HP"
+
+[node name="MaxMP" type="Label" parent="GridContainer"]
+custom_minimum_size = Vector2(900, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 100
+text = "Max MP"
+
+[node name="MP" type="Label" parent="GridContainer"]
+custom_minimum_size = Vector2(900, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 100
+text = "MP"
+
+[node name="MaxSP" type="Label" parent="GridContainer"]
+custom_minimum_size = Vector2(900, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 100
+text = "Max SP"
+
+[node name="SP" type="Label" parent="GridContainer"]
+custom_minimum_size = Vector2(900, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 100
+text = "SP "

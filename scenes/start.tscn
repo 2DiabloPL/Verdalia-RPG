@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://dpnmw5bbaaygk"]
+
+[ext_resource type="Texture2D" uid="uid://c7u4o1xpjy5ae" path="res://icon.svg" id="1_jaeev"]
+[ext_resource type="PackedScene" uid="uid://u8lmmghlhcyk" path="res://scenes/debugserwerclient.tscn" id="2_u80x2"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(633, 318)
+scale = Vector2(4.04, 4.04)
+texture = ExtResource("1_jaeev")
+
+[node name="UI" parent="." instance=ExtResource("2_u80x2")]
+offset_left = -224.0
+offset_top = 7.0
+offset_right = -224.0
+offset_bottom = 7.0

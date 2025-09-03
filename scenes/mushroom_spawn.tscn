@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://pselt45fm2md"]
+
+[ext_resource type="Script" uid="uid://dpmc3nr6sc3yu" path="res://packet info/mushroom_spawn.gd" id="1_3hou2"]
+
+[node name="MushroomSpawn" type="Area2D"]
+script = ExtResource("1_3hou2")
