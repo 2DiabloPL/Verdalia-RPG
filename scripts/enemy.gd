@@ -127,7 +127,7 @@ func _on_detection_area_body_entered(body: Node2D) -> void:
 func _on_detection_area_body_exited(body: Node2D) -> void:
 	przeciwnicy_w_polu_detekcji.erase(body)
 	player_chase = false
-	#print('cos wyszlos')
+	#print('cos wyszlo')
 
 
 func _on_attack_area_body_entered(body: Node2D) -> void:

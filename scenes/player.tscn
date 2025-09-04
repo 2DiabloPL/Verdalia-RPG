@@ -1,4 +1,4 @@
-[gd_scene load_steps=105 format=3 uid="uid://15r84w40j377"]
+[gd_scene load_steps=106 format=3 uid="uid://15r84w40j377"]
 
 [ext_resource type="Script" uid="uid://vj6f8wf4y85y" path="res://scripts/player.gd" id="1_onrkg"]
 [ext_resource type="Texture2D" uid="uid://cw51bi8hmm6dw" path="res://assets/Player/Character_Down.png" id="2_y4r1p"]
@@ -19,6 +19,7 @@
 [ext_resource type="Texture2D" uid="uid://4ooocmtarn0b" path="res://assets/weapon/Sword_DownRight.png" id="15_4r5pv"]
 [ext_resource type="Texture2D" uid="uid://cydcpqkx4h521" path="res://assets/weapon/Sword_UpLeft.png" id="15_oprun"]
 [ext_resource type="Texture2D" uid="uid://dkiwwbtxfsauv" path="res://assets/weapon/Sword_UpRight.png" id="17_60mlk"]
+[ext_resource type="PackedScene" uid="uid://b80naeqdebnnu" path="res://inventory/inventory_gui.tscn" id="20_60mlk"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_fulsm"]
 atlas = ExtResource("2_y4r1p")
@@ -746,6 +747,13 @@ scale = Vector2(0.599992, 0.599992)
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Attack range"]
 position = Vector2(6.10352e-05, 3.8147e-06)
 shape = SubResource("CircleShape2D_fulsm")
+
+[node name="inventory_gui" parent="." instance=ExtResource("20_60mlk")]
+offset_left = -440.0
+offset_top = -510.0
+offset_right = -400.0
+offset_bottom = -470.0
+scale = Vector2(2.6, 2.6)
 
 [connection signal="body_entered" from="Attack range" to="." method="_on_attack_range_body_entered"]
 [connection signal="body_exited" from="Attack range" to="." method="_on_attack_range_body_exited"]

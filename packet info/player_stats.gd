@@ -77,7 +77,7 @@ static func create_from_data(data: PackedByteArray) -> PlayerStatsPacket:
 
 func encode() -> PackedByteArray:
 	var data := super.encode()
-	data.resize(50) # dostosuj rozmiar w zależności od ilości danych
+	data.resize(50) 
 
 	var offset := 1
 	data.encode_u8(offset, id)

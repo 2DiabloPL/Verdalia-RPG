@@ -1,11 +1,11 @@
 [gd_scene load_steps=59 format=3 uid="uid://cm2o2k4s8co2t"]
 
 [ext_resource type="Script" uid="uid://duj0wm4l75m7k" path="res://scripts/enemy.gd" id="1_ersor"]
-[ext_resource type="Texture2D" uid="uid://qv34uw0rsp64" path="res://assets/mushroom/Mushroom-Attack.png" id="2_rahdm"]
-[ext_resource type="Texture2D" uid="uid://y8x3778g3oy8" path="res://assets/mushroom/Mushroom-Die.png" id="3_nkf8m"]
-[ext_resource type="Texture2D" uid="uid://r4hjp47vjdlu" path="res://assets/mushroom/Mushroom-Hit.png" id="4_pqb08"]
-[ext_resource type="Texture2D" uid="uid://dd1bkq1kel70u" path="res://assets/mushroom/Mushroom-Run.png" id="5_5xi2m"]
-[ext_resource type="Texture2D" uid="uid://b5vmvhjcvg100" path="res://assets/mushroom/Mushroom-Idle.png" id="6_duswb"]
+[ext_resource type="Texture2D" uid="uid://qv34uw0rsp64" path="res://assets/enemies/mushroom/Mushroom-Attack.png" id="2_rahdm"]
+[ext_resource type="Texture2D" uid="uid://y8x3778g3oy8" path="res://assets/enemies/mushroom/Mushroom-Die.png" id="3_nkf8m"]
+[ext_resource type="Texture2D" uid="uid://r4hjp47vjdlu" path="res://assets/enemies/mushroom/Mushroom-Hit.png" id="4_pqb08"]
+[ext_resource type="Texture2D" uid="uid://dd1bkq1kel70u" path="res://assets/enemies/mushroom/Mushroom-Run.png" id="5_5xi2m"]
+[ext_resource type="Texture2D" uid="uid://b5vmvhjcvg100" path="res://assets/enemies/mushroom/Mushroom-Idle.png" id="6_duswb"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_4hyqh"]
 atlas = ExtResource("2_rahdm")

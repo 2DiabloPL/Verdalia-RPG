@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://qv34uw0rsp64"
-path="res://.godot/imported/Mushroom-Attack.png-70890cc991358616e946eec91ff73603.ctex"
+uid="uid://cgm06rth8eig5"
+path="res://.godot/imported/Inventory_Blocks_Spritesheet.png-ef5a7588721da75c04dd4a6cb98ea106.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/mushroom/Mushroom-Attack.png"
-dest_files=["res://.godot/imported/Mushroom-Attack.png-70890cc991358616e946eec91ff73603.ctex"]
+source_file="res://assets/ui/Inventory_Blocks_Spritesheet.png"
+dest_files=["res://.godot/imported/Inventory_Blocks_Spritesheet.png-ef5a7588721da75c04dd4a6cb98ea106.ctex"]
 
 [params]
 
